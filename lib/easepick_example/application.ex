@@ -11,7 +11,7 @@ defmodule EasepickExample.Application do
       # Start the Telemetry supervisor
       EasepickExampleWeb.Telemetry,
       # Start the Ecto repository
-      EasepickExample.Repo,
+      # EasepickExample.Repo,
       # Start the PubSub system
       {Phoenix.PubSub, name: EasepickExample.PubSub},
       # Start Finch
